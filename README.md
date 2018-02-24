@@ -38,14 +38,6 @@ then move poollogs_example_ark.json to poollogs.json.
 
 Also, replace docs/index.html with docs/index.ark.html
 
-
-##-->Testing without sending
-
-`python3 liskpool.py
-If set up right it will produce a total to payout and a list of accts to pay with amounts.
-Choose N at end to not save it. 
-
-
 ## Running it
 
 First install requests:
