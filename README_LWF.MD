@@ -1,19 +1,16 @@
+This is a companion to the main README
 
-
-1)Download a copy onto your VPS. Sign in as normal. Do not clone this into your node directory.
+1)Download a copy onto your VPS. Do not clone this into your node directory.
 	
 	cd ~
-	git clone https://github.com/PNWDrew/LWF_pool.git
+	git clone https://github.com/PNWDrew/lwf-pool.git
 	
-that should retrieve all you'll need and put it in your user dir called lwf-pool. 
+That should retrieve all you'll need and put it a new dir called lwf-pool. 
 check it:
 
 	ls
 	 
-you should have a new directory called lwf-pool
-you can rename if you want like this:
-	
-	mv lwf-pool NEW NAME
+You should have a new directory called lwf-pool.
 	
 Install requests
 
@@ -22,7 +19,7 @@ Install requests
 
 2)Edit config.json for your pool. Make sure you are not in node directory. Your prompt will tell you the dir you are in.
 
-	cd lwf-pool
+	cd ~/lwf-pool
 	nano config.json
 
 Enter the necessary info. You'll need to add your % shared, public key and secrets. You can choose min payout as desired
