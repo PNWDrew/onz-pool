@@ -3,6 +3,8 @@ This software is created by lisk delegate "dakk", please consider a small donati
 use this software: "2324852447570841050L" for lisk or "7725849364280821971S" for shift or
 "AZAXtswaWS4v8eYMzJRjpd5pN3wMBj8Rmk" for ark.
 
+#MODIFIED FOR LWF BY PNWDREW. ALL CREDIT GOES TO DAKK, I COULD NEVER WRITE THIS##
+
 
 ## Configuration
 Fork this repo; edit config.json and modify the first lines with your settings:
@@ -36,6 +38,14 @@ then move poollogs_example_ark.json to poollogs.json.
 
 Also, replace docs/index.html with docs/index.ark.html
 
+
+##-->Testing without sending
+
+`python3 liskpool.py
+If set up right it will produce a total to payout and a list of accts to pay with amounts.
+Choose N at end to not save it. 
+
+
 ## Running it
 
 First install requests:
@@ -58,6 +68,8 @@ The payments will be broadcasted (every 10 seconds). At the end you can move you
 poollogs.json to docs/poollogs.json and send the update to your git repo.
 
 To display the pool frontend, enable docs-site on github repository settings.
+
+
 
 
 ## Batch mode
