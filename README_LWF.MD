@@ -18,10 +18,11 @@ you can rename if you want like this:
 Install requests
 
 `pip3 install requests
-  
+
 2) Editing config for your pool. Make sure you are not in node directory. Your prompt will tell you the dir you are in.
 
 	`cd lwf-pool
+	
 	`nano config.json
 
 Enter the necessary info. You'll need to add your % shared, public key and secrets. You can choose min payout as desired
