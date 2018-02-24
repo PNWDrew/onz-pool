@@ -17,7 +17,7 @@ you can rename if you want like this:
 	
 Install requests
 
-`pip3 install requests
+	`pip3 install requests
 
 2) Editing config for your pool. Make sure you are not in node directory. Your prompt will tell you the dir you are in.
 
