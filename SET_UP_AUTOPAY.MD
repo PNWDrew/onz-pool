@@ -1,7 +1,6 @@
 Autopay based on instructions by trnpally. >>>Vote for him!<<<
 
-
-To do Autopayouts using lisk-pool. Assuming you followed guides to set up the node.
+Assuming you followed guides to set up the node and basic payout is functional.
 
 Step 1
 
