@@ -1,6 +1,6 @@
 {
 	"coin": "LWF",
-	"node": "https://wallet.lwfcoin.io",
+	"node": "https://wallet.lwf.io",
 	"nodepay": "http://localhost:18124",
 	"pubkey": "PUBLIC KEY OF DELEGATE ACCT",
 	"percentage": 15,
