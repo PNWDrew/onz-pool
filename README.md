@@ -3,8 +3,11 @@ This software is created by lisk delegate "dakk", please consider a small donati
 use this software: "2324852447570841050L" for lisk or "7725849364280821971S" for shift or
 "AZAXtswaWS4v8eYMzJRjpd5pN3wMBj8Rmk" for ark.
 
-modified for LWF by pnwdrew. See other README for LWF specifics
-ALL CREDIT GOES TO DAKK, I COULD NEVER WRITE THIS :)
+Modified slightly for LWF by pnwdrew. 
+
+See other README_LWF for LWF specifics
+
+########ALL CREDIT FOR THIS SCRIPT GOES TO DAKK, pnwdrew DID NOT AND COULD NOT WRITE THIS :)#########
 
 
 ## Configuration
