@@ -11,6 +11,8 @@ check it:
 	ls
 	 
 You should have a new directory called lwf-pool.
+
+	cd lwf-pool
 	
 Install requests
 
@@ -32,9 +34,15 @@ Control-o to write (save), control-x to exit the editor.
 	python3 liskpool.py
 	
 That should run off the total to share and a list of addresses of your voters and their shares. 
-If it does not work chances are you have an error in config.json. 
+If it does not work you have an error in config.json. 
 Compare to the file in pnwdrew's github or original source by dakk and look for missing characters or symbols. 
 
-If it does work choose N to not save it. 
-Your basic payout script is done.
+If it works choose N to not save it. 
+It can be run by the batch script included by dakk
+
+	bash batch.sh
+
+If that calculates payouts and sends them you will get a confirmation every 3 seconds as it broadcasts. If you get failures check public key and wallet address.
+
+ Your basic payout script is done. There are instructions by trnpally for scheduling payouts in separate README
   
