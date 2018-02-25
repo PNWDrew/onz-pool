@@ -1,9 +1,9 @@
-# Lisk pool distribution software ---set up for LWF
+# Lisk pool distribution software 
 This software is created by lisk delegate "dakk", please consider a small donation if you
 use this software: "2324852447570841050L" for lisk or "7725849364280821971S" for shift or
 "AZAXtswaWS4v8eYMzJRjpd5pN3wMBj8Rmk" for ark.
 
-modified by pnwdrew. 
+modified for LWF by pnwdrew. See other README for LWF specifics
 ALL CREDIT GOES TO DAKK, I COULD NEVER WRITE THIS :)
 
 
