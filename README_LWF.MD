@@ -45,4 +45,5 @@ It can be run by the batch script included by dakk
 If that calculates payouts and sends them you will get a confirmation every 3 seconds as it broadcasts. If you get failures check public key, secrets and wallet address.
 
  Your basic payout script is done. There are instructions by trnpally for scheduling payouts in separate README
-  
+ 
+ If you wish to use the frontend to display payouts for your voters, you can set up a webserver on your vps. That is optional.
