@@ -3,7 +3,8 @@ This software is created by lisk delegate "dakk", please consider a small donati
 use this software: "2324852447570841050L" for lisk or "7725849364280821971S" for shift or
 "AZAXtswaWS4v8eYMzJRjpd5pN3wMBj8Rmk" for ark.
 
-#MODIFIED FOR LWF BY PNWDREW. ALL CREDIT GOES TO DAKK, I COULD NEVER WRITE THIS##
+modified by pnwdrew. 
+ALL CREDIT GOES TO DAKK, I COULD NEVER WRITE THIS :)
 
 
 ## Configuration
@@ -70,7 +71,7 @@ The script is also runnable by cron using the -y argument:
 
 `python3 liskpool.py -y`
 
-There is also a 'batch.sh' file which run liskpool, then payments.sh and copy the poollogs.json
+There is also a 'batch.sh' file which runs liskpool, then payments.sh and copy the poollogs.json
 in the docs folder.
 
 
