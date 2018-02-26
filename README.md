@@ -29,8 +29,11 @@ Fork this repo; edit config.json and modify the first lines with your settings:
 
 Now edit docs/index.html and customize the webpage.
 
-Finally edit poollogs_example.json and put in lastpayout the unixtimestamp of your last payout or the
-date of pool starting; then move poollogs_example.json to poollogs.json.
+----> NOT NEEDED IN THIS VERSION: Finally edit poollogs_example.json and put in lastpayout the unixtimestamp of your last payout or the
+---->NOT NEEDED-- date of pool starting; then move poollogs_example.json to poollogs.json.
+
+Just update unix timestamp in poollogs.json to when you want your script to begin calculating from. 
+google unix timestamp for a converter
 
 ### Ark & Kapu
 If you are using this software on ark, you should edit pollogs_example_ark.json and put:
