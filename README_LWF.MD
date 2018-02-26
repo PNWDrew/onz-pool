@@ -37,13 +37,19 @@ That should run off the total to share and a list of addresses of your voters an
 If it does not work you have an error in config.json. 
 Compare to the file in pnwdrew's github or original source by dakk and look for missing characters or symbols. 
 
-If it works choose N to not save it. 
+If it works choose N to not save it.
+
+Finally you need to edit the timestamp in poollogs.json to reflect the time you want the script to start it's calculation from
+https://www.unixtimestamp.com/ Convert standard time to Unix timestamp and put that in place of what is in the file
+	
+	nano poollogs.json
+	
 It can be run by the batch script included by dakk
 
 	bash batch.sh
 
 If that calculates payouts and sends them you will get a confirmation every 3 seconds as it broadcasts. If you get failures check public key, secrets and wallet address.
 
- Your basic payout script is done. There are instructions by trnpally for scheduling payouts in separate README
+Your basic payout script is done. There are instructions by trnpally for scheduling payouts in separate README
  
- If you wish to use the frontend to display payouts for your voters, you can set up a webserver on your vps. That is optional.
+If you wish to use the frontend to display payouts for your voters, you can set up a webserver on your vps. That is optional.
