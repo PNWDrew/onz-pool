@@ -27,9 +27,14 @@ Step 2
 Step 3
 
 Login in Using Root or use sudo if your user has sudo power
+As root:
 
     crontab -e
 
+As user with sudo power
+
+    sudo crontab -e
+    
 We are going to create a new line at the bottom of the file, see notes in file for time format.
 
 For  Daily
