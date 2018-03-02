@@ -26,12 +26,13 @@ Step 2
 
 Step 3
 
-Login in Using Root or use sudo if your user has sudo power
-As root:
+Login in as root or use sudo if your user has sudo power
+
+--As root:
 
     crontab -e
 
-As user with sudo power
+--As user with sudo power
 
     sudo crontab -e
     
