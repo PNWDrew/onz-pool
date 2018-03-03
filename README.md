@@ -9,6 +9,7 @@ See other README_LWF for LWF specifics
 
 ########ALL CREDIT FOR THIS SCRIPT GOES TO DAKK, pnwdrew DID NOT AND COULD NOT WRITE THIS :)#########
 
+  See README_LWF for specific LWF instructions
 
 ## Configuration
 Fork this repo; edit config.json and modify the first lines with your settings:
