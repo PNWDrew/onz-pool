@@ -1,4 +1,7 @@
 This is a companion to the main README for new users. Anything here that conflicts with dakk's README? Trust him not me....
+For this repo I removed the Lisk info from config and poollogs. liskpool.py is unchanged
+
+You should be signed in as your user for this.
 
 1)Download a copy onto your VPS. Do not clone this into your node directory.
 	
@@ -19,12 +22,16 @@ Install requests
 	pip3 install requests
 
 
-2)Edit config.json for your pool. Make sure you are not in node directory. Your prompt will tell you the dir you are in.
+2)Edit config.json for your pool. Make sure you are not in node directory so you edit the correct file. 
+Your prompt will tell you the dir you are in.
 
 	nano config.json
 
 Enter the necessary info. You'll need to add your % shared, public key and secrets. You can choose min payout as desired
-Secrets (passphrases to your acct) must be in quotes. "ONE TWO THREE FOUR FIVE SIX SEVEN EIGHT NINE TEN ELEVEN TWELVE"
+Secrets (passphrases to your acct) must be in quotes and all on one line.
+
+"ONE TWO THREE FOUR FIVE SIX SEVEN EIGHT NINE TEN ELEVEN TWELVE"
+
 Be careful to not delete any of the symbols.
 
 Control-o to write (save), control-x to exit the editor.
@@ -34,12 +41,12 @@ Control-o to write (save), control-x to exit the editor.
 	python3 liskpool.py
 	
 That should run off the total to share and a list of addresses of your voters and their shares. 
-If it does not work you have an error in config.json. 
+If it does not work you may have an error in config.json. 
 Compare to the file in pnwdrew's github or original source by dakk and look for missing characters or symbols. 
 
-If it works choose N to not save it.
+If it works choose N to not save it. If you choose Y it will save as if payments sent.
 
-Finally you need to edit the timestamp in poollogs.json to reflect the time you want the script to start it's calculation from
+Finally you need to edit the timestamp in poollogs.json to reflect the time you want the script to start it's calculation. The existing timestamp is for the day of distribution of LWF coins. That will be fine if you have not forged before.
 https://www.unixtimestamp.com/ Convert standard time to Unix timestamp and put that in place of what is in the file
 	
 	nano poollogs.json
