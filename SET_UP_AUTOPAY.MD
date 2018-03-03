@@ -36,7 +36,7 @@ Login in as root or use sudo if your user has sudo power
 
     sudo crontab -e
     
-We are going to create a new line at the bottom of the file, see notes in file for time format.
+We are going to create a new line at the bottom of the file, see notes in file for time format. Time is server time. This may not be your local time. Use date command to see server time
 
 For  Daily
 
@@ -52,5 +52,6 @@ For Weekly
 the 3 to anything 1=Monday #2=Tuesday 3=Wednesday 4=Thursday 5=Friday 6=Saturday 7=Sunday)
 
 Control-o to save and control-x to exit
-Now your Pool is auto payout.
+Now your Pool is auto payout. The cron job will execute the autopay.sh script you made at the time you specify. You will not see this in terminal if you are watching.
+
 Enjoy
