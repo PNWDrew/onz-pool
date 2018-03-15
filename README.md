@@ -3,7 +3,7 @@ This software is created by lisk delegate "dakk", please consider a small donati
 use this software: "2324852447570841050L" for lisk or "7725849364280821971S" for shift or
 "AZAXtswaWS4v8eYMzJRjpd5pN3wMBj8Rmk" for ark.
 
-Modified slightly for LWF by pnwdrew. 
+# testing branch is not to used on mainnet. Modified slightly for LWF by pnwdrew. 
 
 See other README_LWF for LWF specifics
 
