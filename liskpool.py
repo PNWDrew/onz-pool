@@ -81,6 +81,7 @@ def estimatePayouts (log):
 		d = requests.get (uri)
 		rew = d.json ()['rewards']
 
+	rewtotal =  (int (rew) / 100000000)
 	forged = (int (rew) / 100000000) * conf['percentage'] / 100
 	print ('To distribute: %f %s' % (forged, conf['coin']))
 	
@@ -107,13 +108,13 @@ def estimatePayouts (log):
 		payouts.append ({ "address": x['address'], "balance": (float (x['balance']) / 100000000 * forged) / weight})
 		#print (float (x['balance']) / 100000000, payouts [x['address']], x['address'])
 		
-	return (payouts, log, forged)
+	return (payouts, log, forged, rewtotal)
 	
 	
 def pool ():
 	log = loadLog ()
 	
-	(topay, log, forged) = estimatePayouts (log)
+	(topay, log, forged, rewtotal) = estimatePayouts (log)
 		
 	f = open ('payments.sh', 'w')
 	for x in topay:
@@ -176,7 +177,7 @@ def pool ():
 	# Donation percentage
 	if 'donationspercentage' in conf:
 		for y in conf['donationspercentage']:
-			am = (forged * conf['donationspercentage'][y]) / 100
+			am = (rewtotal * conf['donationspercentage'][y]) / 100
 			
 			f.write ('echo Sending donation ' + str (conf['donationspercentage'][y]) + '% \(' + str (am) + 'LSK\) to ' + y + '\n')
 				
