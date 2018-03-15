@@ -3,7 +3,12 @@ This software is created by lisk delegate "dakk", please consider a small donati
 use this software: "2324852447570841050L" for lisk or "7725849364280821971S" for shift or
 "AZAXtswaWS4v8eYMzJRjpd5pN3wMBj8Rmk" for ark.
 
-# testing branch is not to used on mainnet. Modified slightly for LWF by pnwdrew. 
+# testing branch is not to used on mainnet until proven. Modified from original to calculate donations % correctly. 
+This should allow the user to use the donations % to send the remaining % to their own account. IE: you share 75% and send 25% to your own account. Both calculations are based on total forged now.
+
+To get this test branch:
+
+  git clone -b testing-donations https://github.com/PNWDrew/lwf-pool.git
 
 See other README_LWF for LWF specifics
 
