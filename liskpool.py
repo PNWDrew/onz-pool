@@ -179,7 +179,7 @@ def pool ():
 		for y in conf['donationspercentage']:
 			am = (rewtotal * conf['donationspercentage'][y]) / 100
 			
-			f.write ('echo Sending donation ' + str (conf['donationspercentage'][y]) + '% \(' + str (am) + 'LWF\) to ' + y + '\n')
+			f.write ('echo Sending donation ' + str (conf['donationspercentage'][y]) + '% \(' + str (am) + 'ONZ\) to ' + y + '\n')
 				
 			data = { "secret": conf['secret'], "amount": int (am * 100000000), "recipientId": y }
 			if conf['secondsecret'] != None:
