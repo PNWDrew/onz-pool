@@ -1,6 +1,6 @@
 {
 	"coin": "ONZ",
-	"node": "https:/node03.onzcoin.com:443/",
+	"node": "https://node03.onzcoin.com:443/",
 	"nodepay": "http://localhost:11000",
 	"pubkey": "PUBLIC KEY OF DELEGATE ACCT",
 	"percentage": 15,
