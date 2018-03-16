@@ -1,7 +1,7 @@
 {
-	"coin": "LWF",
-	"node": "https://wallet.lwf.io",
-	"nodepay": "http://localhost:18124",
+	"coin": "ONZ",
+	"node": "https:/node03.onzcoin.com:443/",
+	"nodepay": "http://localhost:11000",
 	"pubkey": "PUBLIC KEY OF DELEGATE ACCT",
 	"percentage": 15,
 	"logfile": "poollogs.json",
