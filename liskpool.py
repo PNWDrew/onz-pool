@@ -81,7 +81,7 @@ def estimatePayouts (log):
 		d = requests.get (uri)
 		rew = d.json ()['rewards']
 		
-	rewtotal =  (int (rew) / 100000000)
+	rewtotal = (int (rew) / 100000000)
 	forged = (int (rew) / 100000000) * conf['percentage'] / 100
 	print ('To distribute: %f %s' % (forged, conf['coin']))
 	
