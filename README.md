@@ -11,7 +11,7 @@ use this software: "2324852447570841050L" for lisk or "7725849364280821971S" for
   
 # I rename it to onz-pool but not necessary
 
-  cp lwf-pool onz-pool
+  mv lwf-pool onz-pool
   
 See other README_LWF for LWF specifics
 
