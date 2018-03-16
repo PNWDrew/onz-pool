@@ -1,26 +1,28 @@
 This is a companion to the main README for new users. Anything here that conflicts with dakk's README? Trust him not me....
-For this repo I removed the Lisk info from config and poollogs. liskpool.py is unchanged
+For this repo I removed the Lisk info from config and poollogs and added ONZ. 
+
+liskpool.py was altered to fix the donationspercentage calculation. 
+
 
 You should be signed in as your user for this.
 
 1)Download a copy onto your VPS. Do not clone this into your node directory.
 	
 	cd ~
-	git clone https://github.com/PNWDrew/lwf-pool.git
+	git clone -b onz-pool https://github.com/PNWDrew/lwf-pool.git
 	
 That should retrieve all you'll need and put it a new dir called lwf-pool. 
 check it:
 
 	ls
 	 
-You should have a new directory called lwf-pool.
+You should have a new directory called lwf-pool. You can rename it with mv lwf-pool YOURCHOICEOFNAME
 
-	cd lwf-pool
+	cd lwf-pool (or new name)
 	
-Install requests
+Install requests. This may not be necessary in all cases.
 
 	pip3 install requests
-
 
 2)Edit config.json for your pool. Make sure you are not in node directory so you edit the correct file. 
 Your prompt will tell you the dir you are in.
@@ -28,7 +30,7 @@ Your prompt will tell you the dir you are in.
 	nano config.json
 
 Enter the necessary info. You'll need to add your % shared, public key and secrets. You can choose min payout as desired
-Secrets (passphrases to your acct) must be in quotes and all on one line.
+Secrets (passphrases to your acct) must be in quotes and all on one line. If you are using dontions % to send to yourself make sure the sum of sharing and donations is not over 100%, there is no check for this in the script.
 
 "ONE TWO THREE FOUR FIVE SIX SEVEN EIGHT NINE TEN ELEVEN TWELVE"
 
@@ -46,7 +48,7 @@ Compare to the file in pnwdrew's github or original source by dakk and look for 
 
 If it works choose N to not save it. If you choose Y it will save as if payments sent.
 
-Finally you need to edit the timestamp in poollogs.json to reflect the time you want the script to start it's calculation. The existing timestamp is for the day of distribution of LWF coins. That will be fine if you have not forged before.
+Finally you need to edit the timestamp in poollogs.json to reflect the time you want the script to start it's calculation. The existing timestamp is for the day ONZ mainnet opens. 
 https://www.unixtimestamp.com/ Convert standard time to Unix timestamp and put that in place of what is in the file
 	
 	nano poollogs.json
