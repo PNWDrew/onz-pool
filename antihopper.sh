@@ -1,0 +1,9 @@
+# This runs the payout script. 
+#
+# -y              makes it save the results, updating poollogs.json. recording voters, pending, and timestamp. 
+# --min-payout    overrides the value in config.json to stop payouts from being sent
+#
+# set a cron to run this every 1-2 hours.
+# you can add a line to copy poollogs to your webserver to update the page
+# 
+python3 liskpool.py -y --min-payout 100000
