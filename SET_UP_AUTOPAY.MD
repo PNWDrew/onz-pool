@@ -1,3 +1,12 @@
+# Updated
+
+you can just run batch.sh from cron instead of making the autopay script below. 
+so you would end up with cron looking like this if run at 11:30 server time daily:
+
+    30 11 * * * cd /home/YOURUSERNAME/POOLDIRECTORY/ && bash ./batch.sh
+
+# original instructions below
+
 Autopay based on instructions by trnpally. >>>Vote for him!<<<
 
 Assuming you followed guides to set up the node and basic payout is functional.
