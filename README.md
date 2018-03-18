@@ -7,11 +7,11 @@ Modified slightly for ONZ by pnwdrew. Use with caution, monitor a few payouts to
 
 to get ONZ version
 
-  git clone -b onz-pool https://github.com/PNWDrew/lwf-pool.git
+  `git clone -b onz-pool https://github.com/PNWDrew/lwf-pool.git`
   
-I rename it to onz-pool but not necessary
+I rename it to onz-pool but not strictly necessary
 
-  mv lwf-pool onz-pool
+  `mv lwf-pool onz-pool`
   
 See other README_ONZ for ONZ specifics
 
