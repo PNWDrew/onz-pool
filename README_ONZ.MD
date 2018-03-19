@@ -11,17 +11,15 @@ You should be signed in as your user for this.
 1)Download a copy onto your VPS. Do not clone this into your node directory.
 	
 	cd ~
-	git clone -b onz-pool https://github.com/PNWDrew/lwf-pool.git
+	git clone https://github.com/PNWDrew/onz-pool.git
 	
-That should retrieve all you'll need and put it a new dir called lwf-pool. 
+That should retrieve all you'll need and put it a new dir called onz-pool. 
 check it:
 
 	ls
 	 
-You should have a new directory called lwf-pool. You can rename it with 
+You should have a new directory called onz-pool. You can rename it to anything you want.
 
-	mv lwf-pool YOURNEWNAME
-	cd lwf-pool (or YOURNEWNAME)
 	
 Install requests. This may not be necessary in all cases. You can install pip as your OS will instruct you and check if wanted
 
