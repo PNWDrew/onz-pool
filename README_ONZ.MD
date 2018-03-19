@@ -1,7 +1,9 @@
 This is a companion to the main README for new users. Anything here that conflicts with dakk's README? Trust him not me....
 For this repo I removed the Lisk info from config and poollogs and added ONZ. 
 
-#### liskpool.py is altered to fix the donationspercentage calculation. Thanks to deadpool for help. 
+#### liskpool.py is altered to fix the donationspercentage calculation. You can get the original version from dakk if you want an unchanged script. https://github.com/dakk/lisk-pool
+#### This is working for me but please monitor your payouts
+#### Thanks to deadpool for help. 
 
 
 You should be signed in as your user for this.
