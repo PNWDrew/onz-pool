@@ -44,13 +44,20 @@ That should run off the total to share and a list of addresses of your voters an
 If it does not work you may have an error in config.json. 
 Compare to the file in pnwdrew's github or original source by dakk and look for missing characters or symbols. 
 
-If it works choose N to not save it. If you choose Y it will save as if payments sent.
+If it works choose N to not save it. If you choose Y it will save in poollogs.json as if payments were actually sent.
 
-Finally you need to edit the timestamp in poollogs.json to reflect the time you want the script to start it's calculation. The existing timestamp is for the day of distribution of LWF coins. That will be fine if you have not forged before.
-https://www.unixtimestamp.com/ Convert standard time to Unix timestamp and put that in place of what is in the file
+### You will need to edit the timestamp in poollogs.json to reflect the time you want the script to start it's calculation. The existing timestamp is for the day of distribution of LWF coins. Set timestamp for when you entered forging.
+https://www.unixtimestamp.com/ Convert UTC time to Unix timestamp and put that in place of what is in the file
 	
 	nano poollogs.json
 	
+If you wish to test it again with the python3 command above you can. If you run this it will record the current voters, current shares, and current timestamp in poollogs but not send any payouts unless they are over 100000. They will be saved as pending. You can nano the log again afterwards and check for updated timestamp.
+
+	python3 liskpool.py -y --minpayout 100000
+This same line can be used for poolhopping protection if run by cron every few hours.
+
+### Finally to run the whole payout process-
+
 It can be run by the batch script included by dakk
 
 	bash batch.sh
