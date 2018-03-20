@@ -1,9 +1,8 @@
 This is a companion to the main README for new users. Anything here that conflicts with dakk's README? Trust him not me....
 For this repo I removed the Lisk info from config and poollogs and added ONZ. 
 
-#### liskpool.py is altered to fix the donationspercentage calculation. You can get the original version from dakk if you want an unchanged script. https://github.com/dakk/lisk-pool
-#### This is working for me but please monitor your payouts. 
-#### Donations% does not work with the antihopping script often used for liskpool since it operates off timestamp.
+#### liskpool.py is altered to fix the donationspercentage calculation. You can get the original version from dakk if you want an unchanged script. https://github.com/dakk/lisk-pool. This is working for me but please monitor your payouts. 
+#### Donations% does not work with the antihopping script often used for liskpool since it operates off timestamp. You can still use this script but use a fixed donation instead if you intend to use an antihopping script.
 #### Thanks to deadpool for help. 
 
 
