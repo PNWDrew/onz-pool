@@ -2,7 +2,8 @@ This is a companion to the main README for new users. Anything here that conflic
 For this repo I removed the Lisk info from config and poollogs and added ONZ. 
 
 #### liskpool.py is altered to fix the donationspercentage calculation. You can get the original version from dakk if you want an unchanged script. https://github.com/dakk/lisk-pool
-#### This is working for me but please monitor your payouts
+#### This is working for me but please monitor your payouts. 
+#### Donations% does not work with the antihopping script often used for liskpool since it operates off timestamp.
 #### Thanks to deadpool for help. 
 
 
@@ -56,12 +57,9 @@ https://www.unixtimestamp.com/ Convert your desired start time to Unix timestamp
 	
 	nano poollogs.json
 	
-That should be all that is needed. You can do another test if wanted. This line will save the current state of your delegate; updating voters, pendings, etc... Payouts will be saved as pending unless over 100000. 
+That should be all that is needed. You can do another test if wanted. 
 	
-	python3 liskpool.py -y --min-payout 100000
 	
-This line is also poolhopping protection if run regularly by cron.
-
 #### That's it	
 #### The full payout can be run by the batch script included by dakk
 
