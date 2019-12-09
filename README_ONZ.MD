@@ -1,5 +1,5 @@
 This is a companion to the main README for new users. Anything here that conflicts with dakk's README? Trust him not me....
-For this repo I removed the Lisk info from config and poollogs and added ONZ. 
+For this repo I removed the Lisk info from config and poollogs.
 
 #### liskpool.py is altered to fix the donationspercentage calculation. You can get the original version from dakk if you want an unchanged script. https://github.com/dakk/lisk-pool. This is working for me but please monitor your payouts. 
 #### Donations% does not work with the antihopping script often used for liskpool since it operates off timestamp. You can still use this script but use a fixed donation instead if you intend to use an antihopping script.
@@ -11,9 +11,9 @@ You should be signed in as your user for this.
 1)Download a copy onto your VPS. Do not clone this into your node directory.
 	
 	cd ~
-	git clone https://github.com/PNWDrew/onz-pool.git
+	git clone https://github.com/PNWDrew/onz-pool.git 
 	
-That should retrieve all you'll need and put it a new dir called onz-pool. 
+That should retrieve all you'll need and put it a new dir.
 check it:
 
 	ls
@@ -46,7 +46,7 @@ Control-o to write (save), control-x to exit the editor.
 	python3 liskpool.py
 	
 That should run off the total to share and a list of addresses of your voters and their shares. 
-If it does not work you may have an error in config.json. 
+If it does not work you may have an error in config.json. Look for line # in error.
 Compare to the file in pnwdrew's github or original source by dakk and look for missing characters or symbols. 
 
 If it works choose N to not save it. If you choose Y it will save as if payments were actually sent.
