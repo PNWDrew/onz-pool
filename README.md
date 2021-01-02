@@ -3,16 +3,16 @@ This software is created by lisk delegate "dakk", please consider a small donati
 use this software: "2324852447570841050L" for lisk or "7725849364280821971S" for shift or
 "AZAXtswaWS4v8eYMzJRjpd5pN3wMBj8Rmk" for ark.
 
-Modified slightly for ONZ by pnwdrew. Use with caution, monitor a few payouts to be sure.
+Modified slightly for ONZ (now defunct) by pnwdrew. Donations % should work properly now. Use with caution, monitor a few payouts to be sure.
 
 to get ONZ version
 
   `git clone https://github.com/PNWDrew/onz-pool.git`
   
   
-See other README_ONZ for ONZ specifics
+See other README_ONZ for ONZ specifics. Will work with other coins if appropriate info is added
 
-########ALL CREDIT FOR THIS SCRIPT GOES TO DAKK, pnwdrew DID NOT AND COULD NOT WRITE THIS :)#########
+########ALL CREDIT FOR THIS SCRIPT GOES TO DAKK :)#########
 
 
 ## Configuration
